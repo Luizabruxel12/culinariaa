@@ -1,0 +1,90 @@
+.form {
+    border: 1px solid #000000;
+}
+
+input,textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contato {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.titulo-formulario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contactForm input,
+#contactForm button {
+    width: 100%;
+    padding: 10px;
+}
+
+.form {
+    border: 1px solid #000000;
+}
+
+input,textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contato {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.titulo-formulario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contactForm input,
+#contactForm button {
+    width: 100%;
+    padding: 10px;
+}
+
+#contactForm button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #000000;
+}
+
+.checkbox-container {
+    background-color: #ffffff00;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.verifica {
+    display: flex;
+}
+
+.checkbox-container input[type=checkbox] {
+margin: 0 2px 0 0;
+transform: scale(1.5);
+}
