@@ -7,7 +7,7 @@ document.getElementById('contactForm').addEventListener('submit', function (even
 
     console.log(data);
 
-    fetch('SEU LINK DA PLANILHA DO GOOGLE', {
+    fetch('https://script.google.com/macros/s/AKfycbwAdwdOF_y_vnvIfLjxerzIwdO1xW6FTyUE5uTmxaSRDtjMmsEGnZtkIr_DKBFR8DmlUA/exec', {
         method: 'POST',
         body: new  URLSearchParams(data)
     })
